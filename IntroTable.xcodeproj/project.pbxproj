@@ -16,6 +16,10 @@
 		A02977BB1D14BF1C00F3C34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02977B91D14BF1C00F3C34B /* LaunchScreen.storyboard */; };
 		A02977C51D14C29500F3C34B /* Intro.m in Sources */ = {isa = PBXBuildFile; fileRef = A02977C41D14C29500F3C34B /* Intro.m */; };
 		A02977C91D14C3A300F3C34B /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = A02977C81D14C3A300F3C34B /* Declarations.m */; };
+		A02977DD1D14CFFC00F3C34B /* avengers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A02977DA1D14CFFC00F3C34B /* avengers.jpg */; };
+		A02977DE1D14CFFC00F3C34B /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977DB1D14CFFC00F3C34B /* iphone.png */; };
+		A02977DF1D14CFFC00F3C34B /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977DC1D14CFFC00F3C34B /* summer.png */; };
+		A02977E21D14D31E00F3C34B /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = A02977E11D14D31E00F3C34B /* Home.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,11 @@
 		A02977C41D14C29500F3C34B /* Intro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Intro.m; sourceTree = "<group>"; };
 		A02977C71D14C3A300F3C34B /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
 		A02977C81D14C3A300F3C34B /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
+		A02977DA1D14CFFC00F3C34B /* avengers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avengers.jpg; sourceTree = "<group>"; };
+		A02977DB1D14CFFC00F3C34B /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		A02977DC1D14CFFC00F3C34B /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer.png; sourceTree = "<group>"; };
+		A02977E01D14D31E00F3C34B /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		A02977E11D14D31E00F3C34B /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,7 @@
 		A02977A71D14BF1C00F3C34B /* IntroTable */ = {
 			isa = PBXGroup;
 			children = (
+				A02977D91D14CFFC00F3C34B /* imgs */,
 				A02977C21D14BF3900F3C34B /* Controllers */,
 				A02977C61D14C35D00F3C34B /* Main */,
 				A02977B11D14BF1C00F3C34B /* Main.storyboard */,
@@ -93,6 +103,8 @@
 				A02977AF1D14BF1C00F3C34B /* Start.m */,
 				A02977C31D14C29500F3C34B /* Intro.h */,
 				A02977C41D14C29500F3C34B /* Intro.m */,
+				A02977E01D14D31E00F3C34B /* Home.h */,
+				A02977E11D14D31E00F3C34B /* Home.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -106,6 +118,16 @@
 				A02977C81D14C3A300F3C34B /* Declarations.m */,
 			);
 			name = Main;
+			sourceTree = "<group>";
+		};
+		A02977D91D14CFFC00F3C34B /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				A02977DA1D14CFFC00F3C34B /* avengers.jpg */,
+				A02977DB1D14CFFC00F3C34B /* iphone.png */,
+				A02977DC1D14CFFC00F3C34B /* summer.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +188,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02977DF1D14CFFC00F3C34B /* summer.png in Resources */,
 				A02977BB1D14BF1C00F3C34B /* LaunchScreen.storyboard in Resources */,
 				A02977B81D14BF1C00F3C34B /* Assets.xcassets in Resources */,
+				A02977DE1D14CFFC00F3C34B /* iphone.png in Resources */,
+				A02977DD1D14CFFC00F3C34B /* avengers.jpg in Resources */,
 				A02977B31D14BF1C00F3C34B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +209,7 @@
 				A02977C91D14C3A300F3C34B /* Declarations.m in Sources */,
 				A02977AD1D14BF1C00F3C34B /* AppDelegate.m in Sources */,
 				A02977AA1D14BF1C00F3C34B /* main.m in Sources */,
+				A02977E21D14D31E00F3C34B /* Home.m in Sources */,
 				A02977B61D14BF1C00F3C34B /* IntroTable.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,5 +14,10 @@
 
 @property (nonatomic,strong) UIPageViewController *pageViewController;
 
+
+@property (strong, nonatomic) IBOutlet UIButton *btnSpeed;
+
+- (IBAction)btnIntroPressed:(id)sender;
+
 @end
 
