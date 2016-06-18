@@ -1,27 +1,32 @@
 //
-//  ViewController.m
+//  Intro.m
 //  IntroTable
 //
 //  Created by Luis de Jesus Martin Castillo on 17/06/16.
 //  Copyright © 2016 Luis de Jesus Martin Castillo. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "Intro.h"
 
-@interface ViewController ()
+@interface Intro ()
 
 @end
 
-@implementation ViewController
+@implementation Intro
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+-(void)viewWillAppear:(BOOL)animated{
+    _lblIntro.text = maIntroTitles[_pageIndex];
+}
+
 
 @end
