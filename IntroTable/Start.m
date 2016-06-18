@@ -62,7 +62,7 @@
     
     Intro *pageIntro = [self.storyboard instantiateViewControllerWithIdentifier:@"Intro"];
     pageIntro.lblIntro = maIntroTitles[index];
-    pageIntro.imgIntro = [UIImage imageNamed:maIntroImgs[index]];
+    pageIntro.imgIntro.image = [UIImage imageNamed:maIntroImgs[index]];
     pageIntro.pageIndex = index;
     
     return pageIntro;
