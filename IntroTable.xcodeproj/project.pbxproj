@@ -20,6 +20,14 @@
 		A02977DE1D14CFFC00F3C34B /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977DB1D14CFFC00F3C34B /* iphone.png */; };
 		A02977DF1D14CFFC00F3C34B /* summer.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977DC1D14CFFC00F3C34B /* summer.png */; };
 		A02977E21D14D31E00F3C34B /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = A02977E11D14D31E00F3C34B /* Home.m */; };
+		A02977E71D14D76000F3C34B /* cellAvengers.m in Sources */ = {isa = PBXBuildFile; fileRef = A02977E51D14D76000F3C34B /* cellAvengers.m */; };
+		A02977E81D14D76000F3C34B /* cellAvengers.xib in Resources */ = {isa = PBXBuildFile; fileRef = A02977E61D14D76000F3C34B /* cellAvengers.xib */; };
+		A02977EF1D14DD3900F3C34B /* capitan.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977E91D14DD3900F3C34B /* capitan.png */; };
+		A02977F01D14DD3900F3C34B /* hawkeye.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977EA1D14DD3900F3C34B /* hawkeye.png */; };
+		A02977F11D14DD3900F3C34B /* hulk.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977EB1D14DD3900F3C34B /* hulk.png */; };
+		A02977F21D14DD3900F3C34B /* ironman.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977EC1D14DD3900F3C34B /* ironman.png */; };
+		A02977F31D14DD3900F3C34B /* spiderman.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977ED1D14DD3900F3C34B /* spiderman.png */; };
+		A02977F41D14DD3900F3C34B /* thor.png in Resources */ = {isa = PBXBuildFile; fileRef = A02977EE1D14DD3900F3C34B /* thor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +51,15 @@
 		A02977DC1D14CFFC00F3C34B /* summer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = summer.png; sourceTree = "<group>"; };
 		A02977E01D14D31E00F3C34B /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
 		A02977E11D14D31E00F3C34B /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		A02977E41D14D76000F3C34B /* cellAvengers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellAvengers.h; sourceTree = "<group>"; };
+		A02977E51D14D76000F3C34B /* cellAvengers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellAvengers.m; sourceTree = "<group>"; };
+		A02977E61D14D76000F3C34B /* cellAvengers.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellAvengers.xib; sourceTree = "<group>"; };
+		A02977E91D14DD3900F3C34B /* capitan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = capitan.png; sourceTree = "<group>"; };
+		A02977EA1D14DD3900F3C34B /* hawkeye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hawkeye.png; sourceTree = "<group>"; };
+		A02977EB1D14DD3900F3C34B /* hulk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulk.png; sourceTree = "<group>"; };
+		A02977EC1D14DD3900F3C34B /* ironman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ironman.png; sourceTree = "<group>"; };
+		A02977ED1D14DD3900F3C34B /* spiderman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spiderman.png; sourceTree = "<group>"; };
+		A02977EE1D14DD3900F3C34B /* thor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thor.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +92,7 @@
 		A02977A71D14BF1C00F3C34B /* IntroTable */ = {
 			isa = PBXGroup;
 			children = (
+				A02977E31D14D72800F3C34B /* Cells */,
 				A02977D91D14CFFC00F3C34B /* imgs */,
 				A02977C21D14BF3900F3C34B /* Controllers */,
 				A02977C61D14C35D00F3C34B /* Main */,
@@ -123,11 +141,27 @@
 		A02977D91D14CFFC00F3C34B /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				A02977E91D14DD3900F3C34B /* capitan.png */,
+				A02977EA1D14DD3900F3C34B /* hawkeye.png */,
+				A02977EB1D14DD3900F3C34B /* hulk.png */,
+				A02977EC1D14DD3900F3C34B /* ironman.png */,
+				A02977ED1D14DD3900F3C34B /* spiderman.png */,
+				A02977EE1D14DD3900F3C34B /* thor.png */,
 				A02977DA1D14CFFC00F3C34B /* avengers.jpg */,
 				A02977DB1D14CFFC00F3C34B /* iphone.png */,
 				A02977DC1D14CFFC00F3C34B /* summer.png */,
 			);
 			path = imgs;
+			sourceTree = "<group>";
+		};
+		A02977E31D14D72800F3C34B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A02977E41D14D76000F3C34B /* cellAvengers.h */,
+				A02977E51D14D76000F3C34B /* cellAvengers.m */,
+				A02977E61D14D76000F3C34B /* cellAvengers.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,11 +223,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02977DF1D14CFFC00F3C34B /* summer.png in Resources */,
+				A02977F11D14DD3900F3C34B /* hulk.png in Resources */,
 				A02977BB1D14BF1C00F3C34B /* LaunchScreen.storyboard in Resources */,
+				A02977F21D14DD3900F3C34B /* ironman.png in Resources */,
+				A02977E81D14D76000F3C34B /* cellAvengers.xib in Resources */,
+				A02977F01D14DD3900F3C34B /* hawkeye.png in Resources */,
 				A02977B81D14BF1C00F3C34B /* Assets.xcassets in Resources */,
 				A02977DE1D14CFFC00F3C34B /* iphone.png in Resources */,
+				A02977F41D14DD3900F3C34B /* thor.png in Resources */,
 				A02977DD1D14CFFC00F3C34B /* avengers.jpg in Resources */,
+				A02977EF1D14DD3900F3C34B /* capitan.png in Resources */,
 				A02977B31D14BF1C00F3C34B /* Main.storyboard in Resources */,
+				A02977F31D14DD3900F3C34B /* spiderman.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +249,7 @@
 				A02977B01D14BF1C00F3C34B /* Start.m in Sources */,
 				A02977C91D14C3A300F3C34B /* Declarations.m in Sources */,
 				A02977AD1D14BF1C00F3C34B /* AppDelegate.m in Sources */,
+				A02977E71D14D76000F3C34B /* cellAvengers.m in Sources */,
 				A02977AA1D14BF1C00F3C34B /* main.m in Sources */,
 				A02977E21D14D31E00F3C34B /* Home.m in Sources */,
 				A02977B61D14BF1C00F3C34B /* IntroTable.xcdatamodeld in Sources */,
